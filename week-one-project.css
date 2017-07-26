@@ -1,0 +1,414 @@
+
+/*
+<--Font familys-->
+
+---->font-family: 'Merriweather', serif;
+---->font-family: 'Roboto', sans-serif;
+
+<--colors-->
+
+Background: #F2F1E8
+Text: #131511
+Inline Link: #968772
+Inline Link (Hover): #967343
+Navigation Background: #FFFFFF
+Navigation Text: #2B2F26
+Navigation Text (Hover): #CD5D67
+Navigation Text (Active) #968772
+Button Background: #968772
+Button Background (Hover): #967343
+Button Text: #F2F1E8
+Button Text (Hover): #FFFFFF
+Input Border Bottom: #968772
+Input Border Bottom (Focus): #967343
+*/
+
+
+
+/*shared css*/
+/*shared css*/
+/*shared css*/
+
+
+#site_header{
+  background-color: #FFFFFF;
+  color: #2B2F26;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: fixed;
+  top: 0;
+  width:100%;
+  box-shadow: 5px 1px 5px #888888;
+  z-index: 5;
+}
+
+#site_footer{
+  background-color: #131511;
+  padding: 100px;
+}
+
+#logo{
+  display: flex;
+  justify-content: flex-start;
+}
+
+
+.main-navigation a {
+  color: #2B2F26;
+  font-size: 70px;
+}
+
+span{
+  color: #F2F1E8;
+  font-size: 55px;
+}
+
+body {
+  background-color: #F2F1E8;
+  width: 100%;
+}
+
+.style{
+  padding-top: 200px;
+}
+
+.nav_links{
+  display: flex;
+  justify-content: space-around;
+  flex-grow: 1;
+  color: #968772;
+}
+
+.nav_links a{
+  padding: 2em;
+  color: #2B2F26;
+}
+
+.nav_links a:hover{
+  color: #CD5D67;
+}
+
+.nav_links :active{
+  color: #968772;
+}
+
+/*index.html css*/
+/*index.html css*/
+/*index.html css*/
+
+#product_photos_1{
+  display: flex;
+  justify-content: flex-start;
+  justify-content: space-around;
+}
+
+#product_photos_2{
+  display: flex;
+  justify-content: flex-start;
+  justify-content: space-around;
+}
+
+ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-size: 50px;
+  margin-top: -200px;
+}
+
+#text1{
+  background-color: #2b342a;
+  padding: 30px;
+  margin-left: 70px;
+}
+
+#text2{
+  background-color: #2b342a;
+  padding: 30px;
+}
+
+#text3{
+  background-color: #2b342a;
+  padding: 30px;
+  margin-right: 540px;
+}
+
+#text4{
+  background-color: #2b342a;
+  padding: 30px;
+}
+
+#text5{
+  background-color: #2b342a;
+  padding: 30px;
+}
+
+#text6{
+  background-color: #2b342a;
+  padding: 30px;
+}
+
+#text7{
+  background-color: #2b342a;
+  padding: 30px;
+}
+
+#text8{
+  background-color: #2b342a;
+  padding: 30px;
+}
+
+.product-1{
+  background: url("img/product-1.jpg") no-repeat;
+  width: 1500px;
+  height: 1000px;
+}
+
+.product-2{
+  background: url("img/product-2.jpg") no-repeat;
+  width: 600px;
+  height: 1000px;
+}
+
+.product-3{
+  background: url("img/product-3.jpg") no-repeat;
+  width: 700px;
+  height: 1000px;
+}
+
+.product-4{
+  background: url("img/product-4.jpg") no-repeat;
+  width: 800px;
+  height: 700px;
+}
+
+.product-5{
+  background: url("img/product-5.jpg") no-repeat;
+  width: 800px;
+  height: 700px;
+}
+
+.product-6{
+  background: url("img/product-6.jpg") no-repeat;
+  width: 1000px;
+  height: 700px;
+}
+
+.product-7{
+  background: url("img/product-7.jpg") no-repeat;
+  width: 600px;
+  height: 700px;
+}
+
+.home1, .home2{
+  display: flex;
+  justify-content: center;
+  font-family: 'Merriweather', serif;
+}
+
+.home1{
+  font-weight: normal;
+  font-size: 200px;
+  margin-bottom: -100px;
+}
+
+.home2{
+  font-weight: lighter;
+  font-size: 115px;
+}
+
+
+/*about.html css*/
+/*about.html css*/
+/*about.html css*/
+
+aside img{
+  max-width: 100%;
+}
+
+p{
+  font-family: 'Merriweather', sans-serif;
+  font-size: 60.5px;
+  font-weight: lighter;
+  line-height: 2;
+}
+
+aside{
+  padding-left: 30px;
+}
+
+table{
+  width: 83.1%;
+  border-collapse: collapse;
+  margin-bottom: 150px
+}
+
+td{
+  border: 1px solid grey;
+  font-size: 70px;
+  padding: 40px
+}
+
+h3{
+  font-weight: lighter;
+}
+
+.middle_image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 1000px;
+  background: url(img/background-3.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.middle_image h2{
+  font-size: 200px;
+  color: #F2F1E8;
+  font-family: 'Merriweather', serif;
+  font-weight: lighter;
+}
+
+.table_background{
+  background-color: #eeeada;
+}
+
+.aside_text{
+  font-size: 40px;
+}
+
+.about1{
+  display: flex;
+  justify-content: center;
+  font-family: 'Merriweather', serif;
+  font-weight: lighter;
+  font-size: 210px;
+}
+
+.about2{
+font-family: 'Merriweather', serif;
+font-size: 100px;
+font-weight: lighter;
+color: #131511;
+}
+
+.body_wrapper{
+  /*padding-left: 1000px;
+  padding-right: 1000px;*/
+}
+
+.upper_wrapper{
+  margin: 0 auto;
+  width: 50%;
+}
+
+.middle_wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.lower_wrapper{
+  margin: 0 auto;
+  width: 50%;
+}
+
+.mission{
+  font-family: 'Merriweather', sans-serif;
+  font-size: 50px;
+  font-style: italic;
+  line-height: .75;
+  padding: 60px;
+  border-left: 2px solid #967343;
+  padding-top: .07px;
+  padding-bottom: .07px;
+  color: grey;
+}
+
+.body-blue-pot > p > a{
+  color: #968772;
+}
+
+.history{
+  padding-bottom: 50px;
+}
+
+#birdhouse{
+  float: left;
+  padding-right: 100px;
+  padding-bottom: 30px;
+  max-width: 18%;
+}
+
+/*newsletter page css*/
+/*newsletter page css*/
+/*newsletter page css*/
+
+.background_img{
+  background: url(img/background-2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  padding-top: 500px;
+}
+
+.sign-up{
+  font-family: 'Merriweather', serif;
+  background-color: white;
+  margin-left: 1500px;
+  margin-right: 1500px;
+  padding-top: 20px;
+  padding-bottom: 100px;
+  padding-left: 130px;
+  padding-right: 130px;
+  display: flex;
+  flex-direction: column;
+}
+
+.newsletter1{
+  display: flex;
+  justify-content: center;
+  font-weight: lighter;
+  font-size: 70px;
+}
+
+.newsletter2{
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  font-weight: lighter;
+}
+
+.newsletter3{
+  font-size: 45px;
+  color: gray;
+  border-bottom: 1px solid #967343;
+  margin-top: 100px;
+}
+
+.newsletter4{
+  font-size: 45px;
+  color: gray;
+  border-bottom: 1px solid #967343;
+  margin-top: 100px;
+}
+
+.submit_container{
+  display: flex;
+  justify-content: center;
+}
+
+#submit_button{
+  background-color: #967343;
+  color: #F2F1E8;
+  padding: 40px;
+}
